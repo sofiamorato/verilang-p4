@@ -1,0 +1,20 @@
+{
+"success":true,
+"parseOk":true,
+"typeCheckOk":true,
+"semanticOk":true,
+"module":"Set",
+"modules":["Set"],
+"usings":["List"],
+"spaces":["Set","Element","SuperSet"],
+"operators":["union: Set -> Set -> Set","isIn: Element -> Set -> Bool","implication: Bool -> Bool -> Bool","negation: Bool -> Bool","disjunction: Bool -> Bool -> Bool"],
+"variables":["p: Bool","q: Bool","n: Int","c: Char"],
+"rules":2,
+"expressions":["(forall x in Element . (forall S in Set . p))","(neg p)","(p and q)","(n < 10)"],
+"typeErrors":[],
+"semanticErrors":[],
+"output":["Modules: Set","Usings: List","Spaces: Set, Element, SuperSet","Operators: union: Set -> Set -> Set; isIn: Element -> Set -> Bool; implication: Bool -> Bool -> Bool; negation: Bool -> Bool; disjunction: Bool -> Bool -> Bool","Variables: p: Bool; q: Bool; n: Int; c: Char","Rules: 2","Expressions: (forall x in Element . (forall S in Set . p)); (neg p); (p and q); (n < 10)"],
+"error":"",
+"codigoFormateado":"Modules: Set\nUsings: List\nSpaces: Set, Element, SuperSet\nOperators: union: Set -> Set -> Set; isIn: Element -> Set -> Bool; implication: Bool -> Bool -> Bool; negation: Bool -> Bool; disjunction: Bool -> Bool -> Bool\nVariables: p: Bool; q: Bool; n: Int; c: Char\nRules: 2\nExpressions: (forall x in Element . (forall S in Set . p)); (neg p); (p and q); (n < 10)",
+"resumen":"modules=1, spaces=3, operators=5, variables=4, rules=2, expressions=4"
+}

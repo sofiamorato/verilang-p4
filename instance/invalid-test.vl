@@ -1,0 +1,12 @@
+defmodule Bad
+  defspace Set end
+
+  defoperator isIn : Element -> Set -> Bool end
+
+  defvar p : Bool , x : Element end
+
+  defexpression
+    (p and 10)
+  end
+
+end
